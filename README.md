@@ -5,6 +5,7 @@
 To run the app:
 
 > `npm i`
+> 
 > `npm start`
 
 ![Screen Recording 2022-06-19 at 18 50 39](https://user-images.githubusercontent.com/65164924/174489650-3e64d3c1-c9f7-4f46-bb30-3a5ea409bd90.gif)
