@@ -13,6 +13,7 @@ const PokemonDetails = memo(
       onHover(id);
     }, [id, onHover]);
 
+    console.log("rerendering pokemon details", name);
     return (
       <div>
         <button className="pokemon-details" onClick={onButtonClick}>

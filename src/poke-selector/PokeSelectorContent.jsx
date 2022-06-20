@@ -40,7 +40,7 @@ const PokeSelectorContent = ({ onSelection }) => {
 
   //TODO 5: Search for this log, you can see that this function rerenders every second even when nothing changes
   //        avoid those unnecessary re-renders using the tools you got in the lecture.
-  console.log("rerendering");
+  console.log("rerendering pokemonSelectorContent");
 
   return (
     <Flex direction={Flex.directions.COLUMN} className="poke-selector-content">

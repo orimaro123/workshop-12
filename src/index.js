@@ -6,7 +6,6 @@ import "monday-ui-react-core/dist/main.css";
 
 const root = document.getElementById("root");
 
-debugger;
 render(
   <React.StrictMode>
     <App />
