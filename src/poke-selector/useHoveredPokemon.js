@@ -1,11 +1,13 @@
-import { useState, useCallback, useMemo } from "react";
+import React, { useState, useCallback, useMemo } from "react";
 
 export const useHoveredPokemon = (searchResults) => {
   const [hoveredPokemon, setHoveredPokemon] = useState(undefined);
 
   const onPokeHovered = useCallback(
     (id) => {
-      const details = searchResults.find((pokeDetails) => id === pokeDetails.id);
+      const details = searchResults.find(
+        (pokeDetails) => id === pokeDetails.id
+      );
       setHoveredPokemon(details);
     },
     [searchResults]

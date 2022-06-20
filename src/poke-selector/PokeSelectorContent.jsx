@@ -1,5 +1,5 @@
 import { Flex, Search, Heading } from "monday-ui-react-core";
-import { useCallback, useState } from "react";
+import React, { useCallback, useState } from "react";
 import { useDebounce } from "../hooks/useDebounce";
 import PokemonDetails from "./pokemon-details/PokemonDetails";
 import { useHoveredPokemon } from "./useHoveredPokemon";

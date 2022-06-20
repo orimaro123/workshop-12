@@ -1,6 +1,6 @@
 import { DialogContentContainer, Flex, Icon } from "monday-ui-react-core";
 import Close from "monday-ui-react-core/dist/icons/Close";
-import { useState, useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect, useRef } from "react";
 import "./PokeSelector.scss";
 import PokeSelectorContent from "./PokeSelectorContent";
 
@@ -38,6 +38,8 @@ const PokeSelector = ({ onClose }) => {
         type={DialogContentContainer.types.MODAL}
         size={DialogContentContainer.sizes.LARGE}
         className={"poke-selector_modal-content-container"}
+        // this is how you can pass ref to the dialog
+        // ref={dialogRef}
       >
         <Icon
           icon={Close}

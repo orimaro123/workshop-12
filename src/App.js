@@ -1,4 +1,5 @@
 import "./App.scss";
+import React from "react";
 import FavoritePokemon from "./favorite-pokemon/FavoritePokemonPage";
 
 function App() {

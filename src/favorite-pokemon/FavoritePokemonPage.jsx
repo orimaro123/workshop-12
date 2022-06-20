@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import React, { useCallback, useState } from "react";
 import { Heading, Button, Flex } from "monday-ui-react-core";
 import PokeSelector from "../poke-selector/PokeSelector";
 import "./FavoritePokemonPage.scss";
@@ -24,7 +24,10 @@ const FavoritePokemonPage = () => {
 
   return (
     <Flex direction={Flex.directions.COLUMN}>
-      <Heading type={Heading.types.h1} value={`Your favorite Pokémon is ${favoritePokemon.name} !`} />
+      <Heading
+        type={Heading.types.h1}
+        value={`Your favorite Pokémon is ${favoritePokemon.name} !`}
+      />
       <img
         key={favoritePokemon.name}
         src={favoritePokemon.imageUrl}
