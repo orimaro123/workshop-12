@@ -26,4 +26,4 @@ Search for `TODO 3` in the code, currently on any change of the search a request
 Search for `TODO 4` in the code, currently after every refresh your favorite pokemomn reset to pikachu, implement `useLocalStorage` to save your choice on the local storage
 
 #### Bonus
-Search for `TODO 5` in the code, You'll see a console.log that indicates that one of our components re-renders without a reason a lot, fix those re-renders using the tools you got in the lecture.
+Search for `TODO 5` in the code, You'll see a console.log that indicates that one of our components re-renders a lot without a reason, fix those re-renders using the tools you got in the lecture.
