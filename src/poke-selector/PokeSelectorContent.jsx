@@ -9,8 +9,7 @@ const DEBOUNCE_RATE_MS = 200;
 
 const PokeSelectorContent = ({ onSelection }) => {
   const [searchInput, setSearchInput] = useState("");
-  // TODO 3: Currently the app fetches pokemons on each char change in your input,
-  //         implement useDebounce hook in order to minimize unnecessary requests
+
   const debouncedSearchInput = useDebounce(searchInput, DEBOUNCE_RATE_MS);
 
   const { searchResults, isLoading } = usePokeSearch(debouncedSearchInput);

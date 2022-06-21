@@ -2,6 +2,8 @@
 
 ## Running the app
 
+Presentation link - https://docs.google.com/presentation/d/1s3cT0Q6swIHMuECF7k1xh0VBsmKUhQR5iMQVu2Dfpzs
+
 To run the app:
 
 > `npm i`
@@ -18,18 +20,18 @@ Search for `TODO 1` in the code, currently the dialog of choosing a pokemon will
 
 #### useIsMounted
 
-Search for `TODO 2` in the code, currently your app can encounter some exception, if you'll start a search and close it before the request is over, react will try to update an unmounted component state and fail and that will cause an exception, implement `useIsMounted` to solve that
+Search for `TODO 2` in the code, currently your app can encounter some exception, if you'll start a search and close it before the request is over, react will try to update an unmounted component state and fail and that will cause an exception, implement `useIsMounted` to make this exception to go away
 
 ![image](https://user-images.githubusercontent.com/65164924/174626589-033fbcf7-cc92-45ba-b64a-375cf1692fc9.png)
 
-#### useDebounce
-
-Search for `TODO 3` in the code, currently on any change of the search a request is sent, implement `useDebounce` to solve that and reduce unnecessary requests
-![Screen Recording 2022-06-19 at 19 03 56](https://user-images.githubusercontent.com/65164924/174489980-daad1c80-73e4-40d2-a155-bb6b51af35be.gif)
-
 #### useLocalStorage
 
-Search for `TODO 4` in the code, currently after every refresh your favorite pokemomn reset to pikachu, implement `useLocalStorage` to save your choice on the local storage
+Search for `TODO 3` in the code, currently after every refresh your favorite pokemomn reset to pikachu, implement `useLocalStorage` to save your choice on the local storage
+
+#### useDebounce
+
+Search for `TODO 4` in the code, currently on any change of the search a request is sent, implement `useDebounce` to [debounce](https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086) the search text in order to solve that and reduce unnecessary requests
+![Screen Recording 2022-06-19 at 19 03 56](https://user-images.githubusercontent.com/65164924/174489980-daad1c80-73e4-40d2-a155-bb6b51af35be.gif)
 
 #### Bonus
 
