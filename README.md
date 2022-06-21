@@ -36,3 +36,8 @@ Search for `TODO 4` in the code, currently on any change of the search a request
 #### Bonus
 
 Search for `TODO 5` in the code, You'll see a console.log that indicates that one of our components re-renders a lot without a reason, fix those re-renders using the tools you got in the lecture.
+
+
+
+
+If needed, you can find the workshop solution [here](https://github.com/monday-u-com/workshop-12/pull/2)
