@@ -40,4 +40,9 @@ Search for `TODO 5` in the code, You'll see a console.log that indicates that on
 
 
 
+
+
+
+
+#### Solution
 If needed, you can find the workshop solution [here](https://github.com/monday-u-com/workshop-12/pull/2)
